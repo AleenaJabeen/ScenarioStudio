@@ -4,7 +4,7 @@ import { logo } from '../../assets'
 
 function Navbar() {
   return (
-    <nav className='flex fixed absolute top-0 bg-[#ffffff] w-full justify-between items-end px-8 py-3 h-[93px] '>
+    <nav className='flex fixed absolute top-0 z-50 bg-[#ffffff] w-full justify-between items-end px-8 py-3 h-[93px] '>
       {/* Logo */}
       <div className='w-[135px] h-[75px]'>
         <img src={logo} alt="Logo" className='w-full h-full object-cover' />

@@ -1,2 +1,3 @@
-import logo from './LayoutAssets/logo.avif';
-export {logo}
+import logo from './logo.avif';
+import closeBtn from './close.png';
+export {logo,closeBtn}
